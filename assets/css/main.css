@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body, .nav__list, .nav__list-links{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.nav__list, .nav__list-links{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav--dark{
+    background: #222;
+}
+
+.nav__list{
+    padding: 30PX 0;
+}
+.nav__links{
+    color: #ffffff;
+    line-height: 14px;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+/*navbar styling starts here*/
+.banner{
+    background-color: grey;
+    background-image: url('http://via.placeholder.com/1150x350');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+.banner__container{
+    align-items: center;
+    background: rgba(2, 2, 2, 0.39);
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.banner__storyline{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+}
+/*BANNER STYLE ENDS HERE*/
+/*COLUMNS STYLING STARTS HERE*/
+.columns__container{
+    margin: 0 auto;
+    max-width: 1100px;
+    width: 95%;
+
+}
+.columns_row, .columns__d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.columns__column, .columns__column100{
+    flex: 0 0 50%;
+}
+.columns__column50{
+    flex: 0 0 50%;
+}
